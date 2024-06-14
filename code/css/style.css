@@ -320,19 +320,6 @@ a {
   margin-bottom: 100px;
 }
 
-
-.form-usuario::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 1px;
-  height: calc(100% - 500px);
-  background-color: #764d2a;
-  transform: translateX(-50%);
-}
-
 .form-usuario label {
   display: inline-block;
   margin-right: 40px;
