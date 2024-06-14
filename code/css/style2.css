@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Roboto Serif';
+  src: url('../../font/RobotoSerif-VariableFont_GRAD\,opsz\,wdth\,wght.ttf');
+}
+
+@font-face {
+  font-family: 'Shrikhand';
+  src: url('../../font/Shrikhand-Regular.ttf');
+}
+
+body {
+  background-color: #EFE9E7;
+  font-family: 'Roboto Serif';
+  font-size: 1.3rem;
+}
+
+.adop-general {
+  margin: 40px;
+}
+
+.linea-adop-general {
+  border: none;
+  border-top: 1.5px solid #865C37;
+}
+
+.titulo-adop-general {
+  text-align: center;
+  color: #865C37;
+  font-weight: bold;
+}
+
+.descrip-general{
+  color: #865C37;
+  
+}
+
+
+.titulo-nuestros-animales{
+  font-family: 'Shrikhand';
+  font-size: 2rem;
+  color: #D79027;
+  
+}
+
+.decrip-nuestros-animales{
+  color: #865C37;
+  margin-bottom: 40px;
+}
+
+/* CARDS */
+
+/* Estilos generales para el contenedor de tarjetas */
+.cards-container-anim {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 25%px;
+  padding: 0 70px;
+}
+
+/* Estilos para cada tarjeta */
+.card-adop-general {
+  background-color: #865c372d;
+  border-radius: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Estilos para la imagen de cada animal */
+.img-adop-general {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 30px 30px 0 0;
+  object-position: center ;
+}
+
+.card-content-anim {
+  display: grid;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nombre-animal{
+  font-family: 'Shrikhand';
+  color: #865C37;
+  font-size: 30px;
+  margin: 10px 0;
+
+}
+
+.descripcion-adop-general {
+  font-family: 'Roboto Serif';
+  color: #865C37;
+  text-align: justify;
+  font-size: 20px;
+}
+
+/* Estilos para el botón "Detalles" */
+.btn-detalles-adop-general {
+  background-color: #d79128d7;
+  color: #E3D9D4;
+  font-family: 'Shrikhand';
+  font-size: 25px;
+  border: none;
+  margin-bottom: 20px;
+  padding: 18px 20px;
+  border-radius: 0 0 30px 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-detalles-adop-general:hover {
+  background-color: #865C37;
+}
+
+/* MEDIA QUERYS */
+
+@media (max-width: 1400px) {
+  .cards-container-anim {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .cards-container-anim {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+}

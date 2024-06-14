@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manada de pan</title>
+  <link rel="stylesheet" href="./code/css/style3.css">
+  <script src="./code/js/cesta.js" defer></script>
+</head>
+
+<body>
+
+  <section>
+
+    <div class="serv-prod">
+      <hr class="linea-serv-prod">
+      <p class="titulo-serv-prod">Servicios y productos</p>
+      <hr class="linea-serv-prod">
+
+      <p class="descrip-general-serv-prod">¡Bienvenidos a nuestra tienda de productos y servicios para animales! Aquí
+        encontrarás todo lo necesario para el bienestar de tus mascotas: desde alimentación y juguetes hasta atención
+        veterinaria. Nos comprometemos a brindar lo mejor para tu compañero peludo, asegurando que reciba el amor y
+        cuidado que merece. ¡Descubre todo lo que tenemos para ofrecer y mejora la vida de tu mascota!</p>
+
+      <div class="productos">
+        <p class="titulo-servs-prods">Productos</p>
+        <p class="decrip-serv-prod"> Encuentra el alimento perfecto para mantener a tu mascota sana y feliz, así como
+          juguetes que estimularán su mente y cuerpo. Nos dedicamos a proporcionar productos de alta calidad para el
+          bienestar y la diversión de tus amigos peludos. ¡Explora nuestra selección y mejora la vida de tu mascota hoy
+          mismo! </p>
+
+        <section class="cards-container-serv-prod">
+          <div class="card-serv-prod">
+            <img src="./img/comida-perros.jpg" alt="Pienso perros" class="img-serv-prod">
+            <div class="card-content-serv-prod">
+              <p class="nombre-serv-prod">Pienso perros medianos</p>
+              <p class="descripcion-serv-prod">500 gr de ingredientes naturales y
+                equilibrados, proporcionando una nutrición óptima para su salud y vitalidad. Con sabor irresistible y
+                nutrientes esenciales, asegura el bienestar y la energía de tu mascota.</p>
+              <button class="btn-detalles-serv-prod" onclick="agregarProducto('Pienso perros medianos', 19.99)">Comprar
+                por 19,99€</button>
+            </div>
+          </div>
+
+          <div class="card-serv-prod">
+            <img src="./img/comida-gatos.jpg" alt="Pienso gatos" class="img-serv-prod">
+            <div class="card-content-serv-prod">
+
+              <p class="nombre-serv-prod">Pienso gatos pequeños</p>
+              <p class="descripcion-serv-prod">500 gr de pienso para gatos pequeños ofrece una nutrición completa y
+                equilibrada, adaptada a todas las edades y razas. Rico en proteínas y nutrientes esenciales, garantiza
+                la salud y felicidad de tu felino.</p>
+              <button class="btn-detalles-serv-prod" onclick="agregarProducto('Pienso gatos pequeños' , 19.99)" >Comprar por 19,99€</button>
+            </div>
+          </div>
+
+          <div class="card-serv-prod">
+            <img src="./img/juguete-perros.jpg" alt="Juguete perros" class="img-serv-prod">
+            <div class="card-content-serv-prod">
+
+              <p class="nombre-serv-prod">Juguete para perros</p>
+              <p class="descripcion-serv-prod">3 huesos de juguete para tus perros, perfecto para satisfacer
+                la necesidad instintiva de morder de tu mascota. Hechos con materiales duraderos y seguros,
+                promueven la salud dental y el bienestar físico de tu compañero.</p>
+              <button class="btn-detalles-serv-prod" onclick="agregarProducto('Juguete para perros' , 9.95)" >Comprar por 9,95€</button>
+            </div>
+          </div>
+
+          <div class="card-serv-prod">
+            <img src="./img/juguete-gatos.jpg" alt="Juguete gatos" class="img-serv-prod">
+            <div class="card-content-serv-prod">
+
+              <p class="nombre-serv-prod">Juguete para gatos</p>
+              <p class="descripcion-serv-prod">Pelota estática para gatos, la opción ideal para mantener a
+                tu felino activo y entretenido. Con un diseño bien divertido y estimulante, este juguete ofrece momentos
+                de
+                diversión, satisfaciendo sus instintos de caza.</p>
+              <button class="btn-detalles-serv-prod" onclick="agregarProducto('Juguete para gatos' , 16.95)">Comprar por 16,95€</button>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <div class="servicios">
+        <p class="titulo-servs-prods">Servicios</p>
+        <p class="decrip-serv-prod"> Ofrecemos atención veterinaria de calidad, peluquería especializada, guardería
+          segura y paseos divertidos para tus compañeros peludos. Nuestro equipo de profesionales se dedica a cuidar y
+          mimar a tus mascotas, asegurando que reciban el mejor trato y atención. Confía en nosotros para mantener a tu
+          mascota sana, bien arreglada y feliz. Podrás comprar un servicio y llamarnos para elegir qué día y hora te
+          viene mejor. Para cualquier tipo de duda o si solicita una variación en el servicio, no dude en ponerse en
+          contacto con nosotros. </p>
+
+        <section class="cards-container-serv-prod">
+          <div class="card-serv-prod">
+            <img src="./img/peluqueria.jpg" alt="Pelqueria" class="img-serv-prod">
+            <div class="card-content-serv-prod">
+
+              <p class="nombre-serv-prod">Cuidado y estética</p>
+              <p class="descripcion-serv-prod">
+                Servicio de cuidado y estética para perros y gatos garantizando que tus queridas mascotas reciban
+                atención experta y amorosa. Incluye baño relajante y corte de pelo. Nos dedicamos plenamente a
+                mantener a tus compañeros felices, saludables y con estilo.</p>
+              <button class="btn-detalles-serv-prod" onclick="agregarProducto('Servicio de cuidado y estética' , 29.95)">Comprar por 29,95€</button>
+            </div>
+          </div>
+
+          <div class="card-serv-prod">
+            <img src="./img/veterinario.jpg" alt="Veterinario" class="img-serv-prod">
+            <div class="card-content-serv-prod">
+
+              <p class="nombre-serv-prod">Atención veterinaria</p>
+              <p class="descripcion-serv-prod">Nuestra atención veterinaria ofrece un enfoque compasivo y experto para
+                mantener a tus mascotas saludables y felices. Incluye chequeo regular (tratamiento
+                especializado se verá en consulta), nuestro equipo de veterinarios está comprometido a brindar el más
+                alto nivel de cuidado.
+              </p>
+              <button class="btn-detalles-serv-prod" onclick="agregarProducto('Atención veterinaria' , 15.95)">Comprar por 15,95€</button>
+            </div>
+          </div>
+
+          <div class="card-serv-prod">
+            <img src="./img/paseo-perros.jpg" alt="Paseo" class="img-serv-prod">
+            <div class="card-content-serv-prod">
+
+              <p class="nombre-serv-prod">Paseo con voluntarios</p>
+              <p class="descripcion-serv-prod">El servicio de paseos con voluntarios proporciona a tus mascotas peludas
+                la
+                gran
+                oportunidad de poder ejercitarse, explorar y socializar en un entorno seguro y supervisado.
+                Garantizamos que cada paseo sea una experiencia divertida y enriquecedora para tu
+                compañero. Incluye paseo de 40 min.</p>
+              <button class="btn-detalles-serv-prod" onclick="agregarProducto('Paseo con voluntarios' , 12.99)">Comprar por 12,99€</button>
+            </div>
+          </div>
+
+          <div class="card-serv-prod">
+            <img src="./img/guarderia.jpg" alt="Guarderia" class="img-serv-prod">
+            <div class="card-content-serv-prod">
+
+              <p class="nombre-serv-prod">Alojamiento y guardería</p>
+              <p class="descripcion-serv-prod">Nuestra guardería ofrece un ambiente acogedor y seguro para tus mascotas
+                mientras estás ocupado. Con un equipo atento, proporcionamos cuidado las 24 horas del día,
+                asegurando que tus amigos peludos reciban atención, juegos divertidos y amor constante. Precio por día.
+              </p>
+              <button class="btn-detalles-serv-prod" onclick="agregarProducto('Alojamiento y guardería' , 19.95)">Comprar por 19,95</button>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
